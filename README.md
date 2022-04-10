@@ -5,6 +5,7 @@
 2. [Additional Useful Repositories](#additional-useful-repositories)
 
 # Prior Sequential Work
+## LE and Neurashed
 | Title | Description | Code |
 |-------|-------------|------|
 |  [The local elasticity of neural networks](https://arxiv.org/abs/1910.06943) <br> Hangfeng He, Weijie Su     |    <li>Presents a phenomenon called local elasticity</li> <li>Offer a geometric interpretation of local elasticity using the neural tangent kerne</li> <li>Use pairwise similarity measures between feature vectors for clustering in conjunction with K-means</li>   |   [git](https://github.com/HornHehhf/LocalElasticity)   |
@@ -12,6 +13,11 @@
 |  [Toward Better Generalization Bounds with Locally Elastic Stability](https://proceedings.mlr.press/v139/deng21b.html) <br> Zhun Deng, Hangfeng He, Weijie Su     |    <li>Uniform stability only considers the worst-case loss change (sensitivity) by removing a single data point</li> <li>There are many cases that the worst-case sensitivity of the loss is much larger than the average sensitivity taken over the single data point that is removed in NNs</li> <li>Show that locally elastic stability implies tighter generalization bounds than those derived based on uniform stability in many situations</li>   |   |
 |  [Imitating Deep Learning Dynamics via Locally Elastic Stochastic Differential Equations](https://proceedings.neurips.cc/paper/2021/file/327af0f71f7acdfd882774225f04775f-Paper.pdf) <br> Jiayao Zhang, Hua Wang, Weijie Su     |    <li>Model the evolution of features during deep learning training using a set of stochastic differential equations (SDEs) that each corresponds to a training sample</li> <li>If the SDEs are locally elastic in the sense that the impact is more significant on samples from the same class as the input, the features of the training data become linearly separable, meaning vanishing training loss; otherwise, the features are not separable, regardless of how long the training time is</li> <li>Show that the emergence of a simple geometric structure called the neural collapse of the features</li>   |   [git](https://github.com/zjiayao/le_sde)   |
 |  [Neurashed: A Phenomenological Model for Imitating Deep Learning Training](https://arxiv.org/pdf/2112.09741.pdf)   |   <li>Argue that a future deep learning theory should inherit three characteristics: a hierarchically structured network architecture, parameters iteratively optimized using stochastic gradient-based methods, and information from the data that evolves compressively</li>  <li>Propose Neurashed, a phenomenological model, which enables insights into implicit regularization, infirmation bottleneck, local elasticity</li>  |   |
+
+## Overparameterization
+| Title | Description | Code |
+|-------|-------------|------|
+|  [Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks](https://arxiv.org/pdf/1805.12076.pdf) <br> Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Hathan Srebro     |    <li>Suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks.</li> <li>The capacity bound correlates with the behavior of test error with increasing network sizes, and could potentially explain the improvement in generalization with over-parametrization</li>    |   [git](https://github.com/bneyshabur/over-parametrization)   |
 
 # Additional Useful Repositories
 * [Exploring Generalization in Deep Learning](https://github.com/bneyshabur/generalization-bounds)
