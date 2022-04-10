@@ -17,7 +17,12 @@
 ## Overparameterization
 | Title | Description | Code |
 |-------|-------------|------|
-|  [Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks](https://arxiv.org/pdf/1805.12076.pdf) <br> Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Hathan Srebro     |    <li>Suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks.</li> <li>The capacity bound correlates with the behavior of test error with increasing network sizes, and could potentially explain the improvement in generalization with over-parametrization</li>    |   [git](https://github.com/bneyshabur/over-parametrization)   |
+|  [Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks](https://arxiv.org/pdf/1811.04918.pdf) <br> Zeyuan Allen-Zhu, Yuanzhi Li, Yingyu Liang 2018     |    <li>Suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks.</li> <li>The capacity bound correlates with the behavior of test error with increasing network sizes, and could potentially explain the improvement in generalization with over-parametrization</li>    |   [git](https://github.com/bneyshabur/over-parametrization)   |
+|  [Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers](https://arxiv.org/pdf/1805.12076.pdf) <br> Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Hathan Srebro 2018     |    <li>Prove that overparameterized neural networks can learn some notable concept classes, including two and three-layer networks with fewer parameters and smooth activations</li> <li>The sample complexity can also be almost independent of the number of parameters in the network.</li>  <li>establish a new notion of quadratic approximation of the neural network (that can be viewed as a second-order variant of NTK), and connect it to the SGD theory of escaping saddle points.</li>  |    |
 
 # Additional Useful Repositories
-* [Exploring Generalization in Deep Learning](https://github.com/bneyshabur/generalization-bounds)
+1. [Neural Tangent Kernel](https://github.com/damaru2/ntk/blob/master/readme.md)
+2. NTK blogs
+* [Understanding the Neural Tangent Kernel](https://rajatvd.github.io/NTK/)
+* [Ultra-Wide Deep Nets and Neural Tangent Kernel](http://www.offconvex.org/2019/10/03/NTK/)
+3. [Exploring Generalization in Deep Learning](https://github.com/bneyshabur/generalization-bounds)
